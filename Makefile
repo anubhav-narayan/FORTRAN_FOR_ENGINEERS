@@ -11,3 +11,10 @@ pendulum: pendulum.f90
 .PHONY: clean
 clean:
 	rm -rf ./build/
+	mkdir ./build/
+
+.PHONY: prep
+prep:
+	if [ ! -d ./build ]; then \
+		mkdir ./build; \
+	fi
