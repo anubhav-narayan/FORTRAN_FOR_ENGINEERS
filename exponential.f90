@@ -14,9 +14,8 @@ PROGRAM EXPONENTIAL
     READ(*, *) X
     NXT = X
     WRITE(*, '(A)', ADVANCE='NO') &
-         "TERMS(2 - 50) : "
+         "TERMS(>=2) : "
     READ(*, *) TERMS
-    IF (TERMS > 50) TERMS = 50
     IF (TERMS < 2) TERMS = 2
     DO I = 2, TERMS
         E_X = E_X + NXT
