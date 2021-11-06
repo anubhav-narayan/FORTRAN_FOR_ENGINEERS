@@ -1,0 +1,6 @@
+[submodule "heterogeneous_list.git"]
+	path = heterogeneous_list
+	url = git@gitlab.com:everythingfunctional/heterogeneous_list.git
+[submodule "binary_tree.git"]
+	path = binary_tree
+	url = git@gitlab.com:everythingfunctional/binary_tree.git
